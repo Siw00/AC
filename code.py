@@ -141,12 +141,11 @@ print(average)
 # 10 write a python program to print the follwing pattern N=5:
 
 n=int(input("enter rows"))
+n=n*2
 if n%2 ==0:
   n+=1
-  print(n)
-print(n)
 for i in range(n):
-  if i== n2//2:
+  if i== n//2:
     print("*"*7)
   else:
     print("   *   ")
